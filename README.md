@@ -66,6 +66,7 @@ source .venv/bin/activate
 
 python -m pip install -U pip
 
+
 Install dependencies (minimal example):
 
 pip install pandas pyarrow numpy matplotlib scipy
