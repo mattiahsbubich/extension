@@ -106,9 +106,9 @@ notebooks/02_e1_logprice_earnings_analysis.ipynb
 ### 03 — Returns vs Log-price comparison
 
 notebooks/03_e1_returns_vs_logprice_comparison.ipynb
-	- Direct comparison between the two experiments using the final parquet outputs:
-	- data/processed/e1_returns_ctx256_step10_cut15.parquet
-	- data/processed/e1_logprice_earn_ctx256_step10_cut15.parquet
+  - Direct comparison between the two experiments using the final parquet outputs:
+  - data/processed/e1_returns_ctx256_step10_cut15.parquet
+  - data/processed/e1_logprice_earn_ctx256_step10_cut15.parquet
 
 
 
