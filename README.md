@@ -61,13 +61,17 @@ Additional summary files:
 ### Create and activate virtual environment (macOS / zsh)
 
 python3 -m venv .venv
+
 source .venv/bin/activate
+
 python -m pip install -U pip
 
 Install dependencies (minimal example):
 
 pip install pandas pyarrow numpy matplotlib scipy
+
 pip install chronos-forecasting
+
 pip install tiingo
 
 Notes:
