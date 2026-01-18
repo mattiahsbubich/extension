@@ -67,7 +67,7 @@ source .venv/bin/activate
 python -m pip install -U pip
 
 
-Install dependencies (minimal example):
+### Install dependencies (minimal example):
 
 pip install pandas pyarrow numpy matplotlib scipy
 
@@ -75,7 +75,7 @@ pip install chronos-forecasting
 
 pip install tiingo
 
-Notes:
+### Notes:
 - Chronos downloads the model weights automatically at first run.
 - On Apple Silicon (M1/M2/M3), Chronos can run on MPS (GPU) via PyTorch.
 
@@ -85,25 +85,25 @@ Notes:
 
 All notebooks assume you launch Jupyter from the project root (extension/), so relative paths like data/processed/... work.
 
-00 - Data sanity checks
+### 00 - Data sanity checks
 
 notebooks/00_data_sanity_checks.ipynb
   - Checks dataset schema and missingness
   - Confirms business-day irregularities and validates reindexing approach
 
-01 — Covariates analysis (returns)
+### 01 — Covariates analysis (returns)
 
 notebooks/01_e1_covariates_analysis.ipynb
   - Loads results and summarizes MAE + pinball by horizon/variant
   - Shows improvement distributions and bootstrap CI
 
-02 — Log-price + earnings analysis
+### 02 — Log-price + earnings analysis
 
 notebooks/02_e1_logprice_earnings_analysis.ipynb
   - Focus on log-price target with earnings known-future flag
 	- Visual analysis + bootstrap CI and forest/scatter plots
 
-03 — Returns vs Log-price comparison
+### 03 — Returns vs Log-price comparison
 
 notebooks/03_e1_returns_vs_logprice_comparison.ipynb
 	- Direct comparison between the two experiments using the final parquet outputs:
